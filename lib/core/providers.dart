@@ -35,3 +35,10 @@ final appwriteStorageProvider = Provider(
     return Storage(client);
   },
 );
+
+final appwriteRealtimeProvider = Provider(
+  (ref) {
+    final client = ref.watch(appwriteClientProvider);
+    return Realtime(client);
+  },
+);

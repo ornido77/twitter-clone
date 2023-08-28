@@ -6,6 +6,7 @@ version: 1.0.0+1
 environment:
   sdk: '>=3.0.6 <4.0.0'
 dependencies:
+  any_link_preview: ^3.0.1
   appwrite: ^9.0.1
   carousel_slider: ^4.2.1
   cupertino_icons: ^1.0.2
@@ -15,6 +16,8 @@ dependencies:
   flutter_svg: ^2.0.7
   fpdart: ^1.1.0
   image_picker: ^0.8.6+1
+  like_button: ^2.0.5
+  timeago: ^3.5.0
 
 dev_dependencies:
   flutter_lints: ^2.0.0

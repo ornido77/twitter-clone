@@ -55,13 +55,15 @@ class _HomeViewState extends State<HomeView> {
               _pageIndex == 0
                   ? AssetsConstants.homeFilledIcon
                   : AssetsConstants.homeOutlinedIcon,
-              color: Pallete.whiteColor,
+              colorFilter:
+                  const ColorFilter.mode(Pallete.whiteColor, BlendMode.srcIn),
             ),
           ),
           BottomNavigationBarItem(
             icon: SvgPicture.asset(
               AssetsConstants.searchIcon,
-              color: Pallete.whiteColor,
+              colorFilter:
+                  const ColorFilter.mode(Pallete.whiteColor, BlendMode.srcIn),
             ),
           ),
           BottomNavigationBarItem(
@@ -69,7 +71,8 @@ class _HomeViewState extends State<HomeView> {
               _pageIndex == 2
                   ? AssetsConstants.notifFilledIcon
                   : AssetsConstants.notifOutlinedIcon,
-              color: Pallete.whiteColor,
+              colorFilter:
+                  const ColorFilter.mode(Pallete.whiteColor, BlendMode.srcIn),
             ),
           )
         ],

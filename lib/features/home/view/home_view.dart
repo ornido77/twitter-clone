@@ -32,7 +32,7 @@ class _HomeViewState extends State<HomeView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: _appBar,
+      appBar: _pageIndex == 0 ? _appBar : null,
       body: IndexedStack(
         index: _pageIndex,
         children: UIConstants.bottomTabBarPages,

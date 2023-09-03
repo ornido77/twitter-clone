@@ -7,6 +7,7 @@ class AppwriteConstants {
   // COLLECTIONS
   static const String usersCollection = '64db913e82cc011ee2a9';
   static const String tweetsCollection = '64e9ee798fe726f67e6a';
+  static const String notificationsCollection = '64f31aef73e8455cb003';
 
   // IMAGE LINK
   static String imageUrl(String imageId) =>

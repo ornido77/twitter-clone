@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:twitter_clone/features/auth/view/login_view.dart';
+import 'package:twitter_clone/features/user_profile/view/user_profile_view.dart';
 import 'package:twitter_clone/models/user_model.dart';
 import 'package:twitter_clone/theme/pallete.dart';
 
@@ -16,7 +16,7 @@ class SearchTile extends StatelessWidget {
       onTap: () {
         Navigator.push(
           context,
-          LoginView.route(),
+          UserProfileView.route(userModel),
         );
       },
       leading: CircleAvatar(
